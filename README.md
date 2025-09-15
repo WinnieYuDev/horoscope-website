@@ -4,7 +4,8 @@
 - Simple horoscope which tells you what horoscope sign you have based on your birthday month and day
 - Will tell you divine preditions based on your horoscope sign and how far in the future you would like to see
 
-<img width="1859" height="885" alt="Screenshot 2025-09-15 043551" src="https://github.com/user-attachments/assets/b1227185-5575-40a1-8427-d4ac6422bedd" />
+<img width="1867" height="831" alt="Screenshot 2025-09-15 060300" src="https://github.com/user-attachments/assets/5bbd8d6c-cdd2-44a6-a845-f34417b5c20c" />
+
 
 ### Tech Used
 - HTML
