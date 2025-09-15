@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What is your Horoscope?</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis|Cabin" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <main>
+    <section class="intro">
+      <div class="left-intro">
+        <h1>Welcome Traveler!</h1>
+        <h2>Horoscope readings</h2>
+        <p>
+          Discover the ancient divine foretelling. What are the stars predicting? Choose your sign for a daily
+          horoscope reading. Free daily readings include personality traits, compatibility readings, and today's
+          predictions.
+        </p>
+      </div>
+      <img class="wheel" src="img/horoscopewheel.gif" alt="horoscope wheel" />
+    </section>
+
+
+    <section class="giveSign">
+      <h2>What is my horoscope sign?</h2>
+      <div class="middleContainer">
+
+        <form id="horoscopeForm" class="inputBday">
+          <label for="birthday">Please enter your birthday:</label>
+          <input type="date" id="birthday" name="birthday" />
+          <button type="submit">Get Your Horoscope</button>
+        </form>
+
+        <div id="result">
+          <h2 id="signName"></h2>
+          <img id="signImage" src="" alt="Zodiac Sign Image" style="display: none;" />
+        </div>
+      </div>
+    </section>
+
+    <section class="predictions">
+      <h2>Divine Predictions</h2>
+      <div class="sameLine">
+      <label for="chooseSign">Choose your horoscope:</label>
+      <select name="chooseSign" id="chooseSign">
+        <option value="Aries">Aries</option>
+        <option value="Taurus">Taurus</option>
+        <option value="Gemini">Gemini</option>
+        <option value="Cancer">Cancer</option>
+        <option value="Leo">Leo</option>
+        <option value="Virgo">Virgo</option>
+        <option value="Libra">Libra</option>
+        <option value="Scorpio">Scorpio</option>
+        <option value="Sagittarius">Sagittarius</option>
+        <option value="Capricorn">Capricorn</option>
+        <option value="Aquarius">Aquarius</option>
+        <option value="Pisces">Pisces</option>
+      </select>
+      <label for="chooseDate">Choose your future:</label>
+      <select name="chooseDate" id="chooseDate">
+        <option value="Today">Today</option>
+        <option value="Tomorrow">Tomorrow</option>
+        <option value="NextWeek">Next Week</option>
+      </select>
+      <button id="getPrediction">Reveal Fortune</button>
+      <div id="fortuneResult"></div>
+      </div>
+    </section>
+
+    <section class="allSigns">
+        <button id="toggleSigns">Show All Horoscopes</button>        
+      <ul class="sign-grid">
+        <li><img class="big-img" src="img/aries.png" alt="Aries" /><p>March 21 - April 19</p></li>
+        <li><img class="big-img" src="img/taurus.png" alt="Taurus" /><p>April 20 - May 20</p></li>
+        <li><img class="big-img" src="img/gemini.png" alt="Gemini" /><p>May 21 - June 20</p></li>
+        <li><img class="big-img" src="img/cancer.png" alt="Cancer" /><p>June 22 - July 22</p></li>
+        <li><img class="big-img" src="img/leo.png" alt="Leo" /><p>July 23 - August 22</p></li>
+        <li><img class="big-img" src="img/virgo.png" alt="Virgo" /><p>August 23 - September 22</p></li>
+        <li><img class="big-img" src="img/libra.png" alt="Libra" /><p>September 23 - October 23</p></li>
+        <li><img class="big-img" src="img/scorpio.png" alt="Scorpio" /><p>October 24 - November 21</p></li>
+        <li><img class="big-img" src="img/sagittarius.png" alt="Sagittarius" /><p>November 22 - December 21</p></li>
+        <li><img class="big-img" src="img/capricorn.png" alt="Capricorn" /><p>December 22 - January 19</p></li>
+        <li><img class="big-img" src="img/aquarius.png" alt="Aquarius" /><p>January 20 - February 18</p></li>
+        <li><img class="big-img" src="img/pisces.png" alt="Pisces" /><p>February 19 - March 20</p></li>
+      </ul>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  height:auto;
+  background-color: rgba(20, 21, 43, 255);
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid white;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+    .left-intro {
+    width: 50%;
+    }
+
+    .intro h1 {
+    font-size: 60px;
+    margin: 50px 50px 10px;
+    }
+
+    .intro h2 {
+    font-size: 30px;
+    margin: 25px 50px 10px;
+    }
+
+    .intro p {
+    font-size: 15px;
+    margin: 25px 50px;
+    }
+
+    .wheel {
+    margin-right: 100px;
+    max-width: 300px;
+    height: auto;
+    }
+
+.giveSign {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 30px 0;
+  border-bottom: 1px solid white;
+}
+
+.giveSign h2 {
+  font-size: 30px;
+  margin: 25px 50px 10px;
+}
+
+.middleContainer {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;  
+  gap: 30px;            
+  margin: 0 50px;       
+}
+
+.inputBday {
+  flex: 1 1 300px;
+  display:flex;
+  flex-direction: column;
+  max-width: 500px; 
+  margin: 50px 50px; 
+  gap:20px;
+
+}
+
+#result {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: auto; 
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  width: 100%;
+  max-width: 250px;
+  height: 40px;
+  font-size: 16px;
+  background-color: rgb(59, 52, 52);
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:active {
+  background-color: rgb(70, 68, 68);
+}
+
+#signImage {
+  margin-top: 20px;
+  max-width: 150px;
+}
+
+.predictions {
+  margin-top: 30px;
+  padding: 0 20px;
+  border-bottom: 1px solid white;
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin:0px 50px;
+}
+    .predictions h2{
+        font-size: 30px;
+    }
+
+#fortuneResult {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+.allSigns {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  flex-direction: column;
+  height: auto;
+}
+
+.allSigns button {
+  width: 300px;
+  margin: 50px auto; 
+  text-align: center;
+  display: block; 
+}
+
+.sign-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  list-style: none;
+  justify-items: center;
+  text-align: center;
+  max-width: 1200px;
+  height: auto;
+}
+
+.sign-grid li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-grid img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.sign-grid img:hover {
+  transform: scale(1.1);
+}
+
+.sign-grid p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+
+@media (max-width: 1024px) {
+    .middleContainer {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 30px;      
+    margin: 0 20px;     
+    }
+
+  .inputBday, #result {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .giveSign input, .giveSign button {
+    width: 100%;   
+    max-width: 300px;    
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-intro, .wheel {
+    width: 100%;           
+    text-align: center;
+  }
+  .middleContainer{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+
+  }
+  .inputBday {
+    flex-direction: column;   
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .sign-grid {
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+  }
+}
