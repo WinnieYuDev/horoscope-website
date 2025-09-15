@@ -127,7 +127,7 @@ button:active {
   max-width: 1200px;
   width: 100%;
   height: auto;
-  margin:0px 50px;
+  padding:0px 50px;
 }
     .predictions h2{
         font-size: 30px;
@@ -145,6 +145,7 @@ button:active {
   justify-content: center; 
   align-items: center;    
   flex-direction: column;
+  margin:auto 50px auto auto;
   height: auto;
 }
 
