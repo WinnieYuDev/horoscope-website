@@ -1,4 +1,4 @@
-//had help with this part using reference from Google AI overview after searching and Co-pilot suggestions
+//had help with some javascript functions using reference from Google AI overview after searching and Co-pilot suggestions
 
 //submit birthday then show horoscope sign
 document.getElementById('horoscopeForm').addEventListener('submit', function (event) {
@@ -64,16 +64,14 @@ document.getElementById('getPrediction').addEventListener('click', function () {
   }
 });
 
+//looked up how to do this on stackoverflow
 //toggle display of all signs with click button
 let toggleButton = document.getElementById('toggleSigns');
 let signGrid = document.querySelector('.sign-grid');
-
 //upon load of page, display of signs is set to none
 document.addEventListener('DOMContentLoaded', function () {
   signGrid.style.display = 'none';
 });
-
-//looked up how to do this on stackoverflow
 //if no display of signs then make toggle button show all signs. if all horoscope signs displayed show button as hide all horoscopes
 toggleButton.addEventListener('click', function () {
   if (signGrid.style.display === 'none') {
