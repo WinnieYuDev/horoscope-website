@@ -1,4 +1,4 @@
-//had help with some javascript functions using reference from Google AI overview after searching and Co-pilot suggestions
+//had help with some javascript functions and syntax using reference from Google AI overview after searching and Co-pilot suggestions
 
 //submit birthday then show horoscope sign
 document.getElementById('horoscopeForm').addEventListener('submit', function (event) {
