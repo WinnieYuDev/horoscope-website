@@ -19,6 +19,8 @@
 - Toggle button, DOMContentLoaded, website responsiveness
 
 ### Notes
+Horoscope wheel is from giphy @sanctuarywrld
+Zodiac Sign Logos was provided by pikisuperstar on freepik
 Give horoscopes some love!
 
 ### Review:
