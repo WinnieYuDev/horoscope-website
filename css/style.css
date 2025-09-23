@@ -1,3 +1,5 @@
+/* looked up how to format layouts with CSS Grid and Flexbox with some suggestions from Google AI Overview and Co-pilot*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -222,12 +224,13 @@ button:active {
     width: 100%;           
     text-align: center;
   }
+
   .middleContainer{
     display: flex;
     flex-direction: row;
     flex:1;
-
   }
+
   .inputBday {
     flex-direction: column;   
     width: 100%;
@@ -240,3 +243,4 @@ button:active {
     gap: 15px;
   }
 }
+

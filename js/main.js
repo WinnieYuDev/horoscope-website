@@ -44,6 +44,7 @@ function displayResult(sign) {
 }
 }
 
+//Referenced Co-pilot suggestions for this part
 //after submiting sign and date, you get a prediction
 document.getElementById('getPrediction').addEventListener('click', function () {
   let selectedSign = document.getElementById('chooseSign').value;
