@@ -4,6 +4,7 @@
 - Simple horoscope which tells you what horoscope sign you have based on your birthday month and day
 - Will tell you divine preditions based on your horoscope sign and how far in the future you would like to see
 
+![Screenshot 2025-09-23 140009](https://github.com/user-attachments/assets/e3f55ec6-185a-4b07-9df6-7b75b626c68c)
 
 
 ### Tech Used
