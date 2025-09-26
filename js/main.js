@@ -56,7 +56,7 @@ document.getElementById('getPrediction').addEventListener('click', function () {
     Tomorrow: selectedSign + ':  Tomorrow may bring unexpected joy to those in need.',
     NextWeek: selectedSign + ':  A change in energy will be coming forth this week. Be cautious.'
   };
-//{ key: value } label each fortune by date
+// i had to look this up on Google AI Overview. { key: value } label each fortune by date
   if (fortunes[selectedDate]) {
     resultBox.textContent = fortunes[selectedDate];
   } else {

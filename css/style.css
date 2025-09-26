@@ -1,4 +1,4 @@
-/* looked up how to format layouts with CSS Grid and Flexbox with some suggestions from Google AI Overview and Co-pilot*/
+/* looked up how to format layouts with CSS Grid and media queries with some suggestions from Google AI Overview and Co-pilot*/
 
 * {
   box-sizing: border-box;
@@ -131,9 +131,9 @@ button:active {
   height: auto;
   padding:0px 50px;
 }
-    .predictions h2{
-        font-size: 30px;
-    }
+  .predictions h2{
+      font-size: 30px;
+  }
 
 #fortuneResult {
   margin-top: 20px;
@@ -178,7 +178,7 @@ button:active {
 .sign-grid img {
   width: 80px;
   height: auto;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease; /* smooth hover effect */
 }
 
 .sign-grid img:hover {
@@ -191,9 +191,9 @@ button:active {
   color: white;
 }
 
-
+ /* media queries for responsiveness, especially for tablets and mobile devices */
 @media (max-width: 1024px) {
-    .middleContainer {
+  .middleContainer {
     display: flex;
     flex-wrap: wrap;  
     justify-content: center;
